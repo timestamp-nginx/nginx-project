@@ -21,3 +21,15 @@ kubectl run ts-nginx --image=wangxinsh/timestamp-nginx:latest
 ```
 kubectl expose ts-nginx 
 ```
+
+## Helm
+### install
+
+```
+helm install --name sample1 ./chart/
+```
+
+### uninstall
+```
+helm del --purge sample1
+```
