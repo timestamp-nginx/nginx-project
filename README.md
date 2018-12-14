@@ -40,13 +40,16 @@ Thu Dec 13 21:51:04 CST 2018<br/>
 </html>
 ```
 
-## Build Image
+## Build and Push Image
+
+At CI stage, we can type the command below to build and push image.
 ```
 make build
 ```
 
 ## Deploy
 
+At CD stage, we can deploy the website through Kubectl or Helm.
 ### Kubectl Deploy
 ```
 kubectl run ts-nginx --image=wangxinsh/timestamp-nginx:latest
@@ -56,15 +59,14 @@ kubectl run ts-nginx --image=wangxinsh/timestamp-nginx:latest
 kubectl expose ts-nginx 
 ```
 
-## Helm 
-
-### Install
+### Helm Install
 
 ```
 helm install --name sample1 ./chart/
 ```
 
 ### Uninstall
+
 ```
 helm del --purge sample1
 ```
