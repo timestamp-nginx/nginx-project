@@ -62,7 +62,7 @@ kubectl expose ts-nginx
 ### Helm Install
 
 ```
-helm install --name sample1 ./chart/
+helm install --name sample1 ./chart/ --set image.tag=TAG
 ```
 
 ### Uninstall

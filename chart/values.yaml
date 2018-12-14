@@ -5,8 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: wangxinsh/timestamp-nginx
-  tag: latest
+  repository: dockerhub.qingcloud.com/tsnginx/timestamp-nginx
+  tag: v0.1.1
   pullPolicy: Always
 
 service:
