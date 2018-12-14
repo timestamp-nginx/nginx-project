@@ -33,9 +33,7 @@ Commercial support is available at
 
 <a href="http://nginx.com/">nginx.com</a>.</p>
 <p><em>Thank you for using nginx.</em></p>
-Thu Dec 13 13:54:30 CST 2018<br/>
-Thu Dec 13 16:32:53 CST 2018<br/>
-Thu Dec 13 21:51:04 CST 2018<br/>
+Thu Dec 13 21:51:04 CST 2018 v0.1.0<br/>
 </body>
 </html>
 ```
